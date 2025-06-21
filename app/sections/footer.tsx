@@ -26,7 +26,8 @@ export const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/smile_dra.gandini/"
+                target="_blank"
                 className="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white hover:bg-primary-hover transition-colors"
               >
                 <Instagram className="h-5 w-5" />
@@ -91,34 +92,50 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="#servicios"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
-                  Ortodoncia
+                  Odontología General
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#servicios"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
-                  Estética Dental
+                  Cirugía Oral
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#servicios"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
-                  Odontopediatría
+                  Implantología
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#servicios"
                   className="text-gray-600 hover:text-primary transition-colors"
                 >
-                  Implantes Dentales
+                  Rehabilitación Estética
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#servicios"
+                  className="text-gray-600 hover:text-primary transition-colors"
+                >
+                  Estética Facial
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#servicios"
+                  className="text-gray-600 hover:text-primary transition-colors"
+                >
+                  Armonización Orofacial
                 </Link>
               </li>
             </ul>

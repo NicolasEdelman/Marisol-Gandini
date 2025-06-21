@@ -13,8 +13,8 @@ const GaleriaEquipos = () => {
               Mi Consultorio y Equipos
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Cuento con instalaciones modernas y equipos de última generación
-              para brindarte la mejor atención
+              Contamos con instalaciones modernas y equipos de última generación
+              para brindarte la mejor atención.
             </p>
           </div>
         </AnimateOnScroll>

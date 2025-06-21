@@ -11,7 +11,7 @@ export const Contact = () => {
         <AnimateOnScroll>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Contáctame
+              Contactáme
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Estoy para responder tus preguntas y ayudarte a alcanzar una salud
@@ -24,7 +24,7 @@ export const Contact = () => {
           <AnimateOnScroll>
             <div className="bg-white rounded-lg shadow-lg p-8 h-full flex flex-col">
               <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                Envíame un mensaje
+                Enviáme un mensaje
               </h3>
 
               <form className="space-y-6 flex-grow">
@@ -118,7 +118,7 @@ export const Contact = () => {
                   <Mail className="h-6 w-6 text-primary mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                    <p className="text-gray-600">dra.marisol@gandini.com</p>
+                    <p className="text-gray-600">marisolgandini@hotmail.com</p>
                   </div>
                 </div>
 
@@ -128,7 +128,7 @@ export const Contact = () => {
                     <h4 className="font-semibold text-gray-800 mb-1">
                       Teléfono
                     </h4>
-                    <p className="text-gray-600">099859518</p>
+                    <p className="text-gray-600">098 595 189</p>
                   </div>
                 </div>
 
@@ -153,9 +153,7 @@ export const Contact = () => {
                       Horario de Atención
                     </h4>
                     <p className="text-gray-600">
-                      Lunes a Viernes: 9:00 - 19:00
-                      <br />
-                      Sábados: 9:00 - 14:00
+                      Lunes a Sabado (previa coordinación)
                     </p>
                   </div>
                 </div>

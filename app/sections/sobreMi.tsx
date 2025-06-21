@@ -13,53 +13,26 @@ export const SobreMi = () => {
             <div className="h-full flex flex-col justify-between">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-8">
-                  Hola, soy la Dra. Marisol Gandini
+                  ¿QUIENES SOMOS?
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Soy la Dra. Marisol Gandini, odontóloga con más de 15 años de
-                  experiencia brindando servicios de salud bucal de excelencia.
-                  Me he especializado en diversas áreas de la odontología para
-                  ofrecer tratamientos integrales y personalizados a cada uno de
-                  mis pacientes.
+                  Los saluda la Dra. Marisol Gandini y me presento por aquí. Soy
+                  mamá de Paulina y Odontóloga. Desde chiquita me generó mucha
+                  curiosidad los materiales e instrumentos al visitar a mi
+                  dentista. Siempre dije que iba a ser Odontóloga y así fue..
                 </p>
-
-                <div className="space-y-4 mb-8">
-                  <div className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                    <p className="text-gray-600">
-                      Especialista en ortodoncia, odontología estética y
-                      rehabilitación oral
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                    <p className="text-gray-600">
-                      Formación continua en las técnicas más avanzadas de
-                      odontología
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                    <p className="text-gray-600">
-                      Enfoque personalizado según las necesidades específicas de
-                      cada paciente
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                    <p className="text-gray-600">
-                      Consultorio equipado con tecnología de vanguardia para
-                      diagnósticos precisos
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                    <p className="text-gray-600">
-                      Compromiso con la excelencia y el bienestar integral de
-                      mis pacientes
-                    </p>
-                  </div>
-                </div>
+                <p className="text-lg text-gray-600 mb-6 font-bold">
+                  Es un consultorio odontológico comprometido con la salud oral
+                  y el bienestar de nuestros pacientes. <br /> Nuestro enfoque
+                  se basa en brindar una atención integral, respaldada por la
+                  capacitación continua en la atención que brindamos.
+                  <br /> Cada paciente es único, por lo que personalizamos los
+                  tratamientos.
+                </p>
+                <p className="text-lg text-gray-600 mb-6 font-bold">
+                  En nuestro consultorio, el paciente es nuestra prioridad y su
+                  satisfacción es nuestra mayor recompensa.
+                </p>
               </div>
 
               <Button className="bg-primary hover:bg-primary-hover text-white text-lg py-6 px-8 self-start mt-auto">

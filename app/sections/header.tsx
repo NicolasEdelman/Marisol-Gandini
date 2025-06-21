@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import { useState } from "react";
-import { Menu, Phone, X } from "lucide-react";
+import { Menu, Phone, X, Instagram} from "lucide-react";
 
 export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -30,6 +30,9 @@ export const Header = () => {
           </Link>
           <Link href="#contacto" className="text-gray-600 hover:text-primary transition-colors">
             Contacto
+          </Link>
+          <Link href="https://www.instagram.com/smile_dra.gandini/" target="_blank" className="text-gray-600 hover:text-primary transition-colors">
+            <Instagram className="h-5 w-5" />
           </Link>
           <Button className="bg-primary hover:bg-primary-hover text-white">
             <Phone className="mr-2 h-4 w-4" /> Agendar una consulta
