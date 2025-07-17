@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const GaleriaEquipos = () => {
   return (
-    <section id="instalaciones" className="py-20 bg-primary-light">
+    <section id="instalaciones" className="pb-10 md:py-20 bg-primary-light">
       <div className="container mx-auto px-4">
         <AnimateOnScroll>
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Mi Consultorio y Equipos
+              Mi Consultorio
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Contamos con instalaciones modernas y equipos de última generación

@@ -1,23 +1,39 @@
 export const imagenesConsultorio = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dentistas-profesional-de-la-salud-scaled-TjIJRk6x4grlNyoIj6SZjvSSt0Gb7w.webp",
-    alt: "Consultorio Dra. Gandini",
+    src: "/images/Fotos/2.jpeg",
+    alt: "Imagenes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Como-escoger-tu-clinica-dental.jpg-JzJtccBGm6XtDhkftBNiLJFezFctPV.jpeg",
-    alt: "Equipamiento moderno",
+    src: "/images/Fotos/12.jpeg",
+    alt: "Imagenes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images-ZDQPrATjMW3tLa3pm54W98rfD8t9nC.jpeg",
-    alt: "Sala de tratamiento",
+    src: "/images/Fotos/3.jpeg",
+    alt: "Imagenes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patron-dentistas-utensilios-1000x640.jpg-vNLSQ02mwHUwXSpzsqdPyF7pfSb0Gm.jpeg",
-    alt: "Instrumentos dentales",
+    src: "/images/Fotos/4.jpeg",
+    alt: "Imagenes",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BLOG-DENTISTAS-EN-LIMA-IILQ9Tpf5biMbcgxPXyYfzkuCNCs3j.webp",
-    alt: "Sala de espera",
+    src: "/images/Fotos/11.jpeg",
+    alt: "Imagenes",
+  },
+  {
+    src: "/images/Fotos/5.jpeg",
+    alt: "Imagenes",
+  },
+  {
+    src: "/images/Fotos/6.jpeg",
+    alt: "Imagenes",
+  },
+  {
+    src: "/images/Fotos/7.jpeg",
+    alt: "Imagenes",
+  },
+  {
+    src: "/images/Fotos/8.jpeg",
+    alt: "Imagenes",
   },
 ];
 
@@ -25,43 +41,50 @@ export const services = [
   {
     title: "Odontología General",
     description:
-      "Cuidamos de tu salud bucal  con limpiezas, tratamientos de caries y revisiones periódicas, para mantener tu sonrisa brillante y sana.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images%20%281%29-1o0Y18DLBauzNVh8MTj1TipHiYf3IZ.jpeg",
+      "Ofrecemos limpiezas, tratamientos de caries y controles periódicos para mantener tu salud bucal en óptimas condiciones.",
+    image: "/images/Iconos/OdontologiaGeneral.png",
+  },
+  {
+    title: "Estética dental y Rehabilitación",
+    description:
+      "Mejoramos la apariencia y funcionalidad de tu sonrisa con tratamientos como carillas, coronas, prótesis y diseño de sonrisa personalizado.",
+    image: "/images/Iconos/EsteticaRehabilitacion.png",
   },
   {
     title: "Cirugía Oral",
     description:
-      "Se realizan procedimientos precisos y seguros, como extracciones dentales simples y complejas, cirugía de tejidos blandos, entre otras.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Como-escoger-tu-clinica-dental.jpg-JzJtccBGm6XtDhkftBNiLJFezFctPV.jpeg",
+      "Realizamos procedimientos quirúrgicos como extracciones simples y complejas, y tratamientos de tejidos blandos, con precisión y seguridad.",
+    image: "/images/Iconos/Cirugia.png",
   },
   {
     title: "Implantología",
     description:
-      "Reponer piezas ausentes mediante implante dentales, los cuales  te devuelven la funcionalidad y estética de tu sonrisa de manera definitiva y duradera.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dentistas-profesional-de-la-salud-scaled-TjIJRk6x4grlNyoIj6SZjvSSt0Gb7w.webp",
+      "Reemplazamos piezas dentales perdidas con implantes que restauran la estética y funcionalidad de tu sonrisa de forma definitiva.",
+    image: "/images/Iconos/Implantologia.png",
   },
   {
-    title: "Rehabilitación Estética",
-    description: "Redefino tu sonrisa con un brillo natural.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/images-ZDQPrATjMW3tLa3pm54W98rfD8t9nC.jpeg",
-  },
-  {
-    title: "Estética Facial",
+    title: "Armonización Facial",
     description:
-      "Diseños de sonrisa, Tratamientos estéticos, como  blanqueamientos, coronas, prótesis convencionales y sobre implantes",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patron-dentistas-utensilios-1000x640.jpg-vNLSQ02mwHUwXSpzsqdPyF7pfSb0Gm.jpeg",
+      "Tratamientos mínimamente invasivos que mejoran la simetría y estética del rostro, complementando tu sonrisa de manera natural.",
+    image: "/images/Iconos/Armonizacion.png",
   },
   {
-    title: "Armonización Orofacial",
+    title: "Laserterapia",
     description:
-      "Tratamientos estéticos, como Bótox, Ácido Hialurónico, Bioestimuladores",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/patron-dentistas-utensilios-1000x640.jpg-vNLSQ02mwHUwXSpzsqdPyF7pfSb0Gm.jpeg",
+      "Aplicamos tecnología láser para aliviar el dolor, acelerar la cicatrización y potenciar diversos tratamientos odontológicos.",
+    image: "/images/Iconos/Laserterapia.png",
+  },
+  {
+    title: "Odontopediatría",
+    description:
+      "Atención especializada para niños, con tratamientos preventivos y restaurativos adaptados a cada etapa del desarrollo.",
+    image: "/images/Iconos/Pediatria.png",
+  },
+  {
+    title: "Ortodoncia",
+    description:
+      "Corregimos la posición de tus dientes y mandíbula mediante técnicas modernas para lograr una sonrisa alineada y funcional.",
+    image: "/images/Iconos/Ortodoncia.png",
   },
 ];
 

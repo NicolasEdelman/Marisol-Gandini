@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export const Perfil = () => {
   return (
-    <section id="especialista" className="py-20 bg-primary-light">
+    <section id="perfil" className="py-20 bg-primary-light">
       <div className="container mx-auto px-4">
         <AnimateOnScroll>
           <div className="text-center mb-16">
@@ -47,7 +47,7 @@ export const Perfil = () => {
                       Doctora en Odontología Especialista en Estética
                       Restauradora
                     </p>
-                    <p className="text-gray-600">
+                    <p className="text-gray-600 text-sm md:text-md">
                       Mi mayor propósito es que los pacientes vivan una
                       experiencia positiva en la visita al odontólogo,
                       derribando mitos y educando para mejorar tu salud bucal.
@@ -66,7 +66,7 @@ export const Perfil = () => {
                         <h4 className="font-semibold text-gray-800 mb-2">
                           Formación Académica
                         </h4>
-                        <ul className="space-y-1 text-gray-600">
+                        <ul className="space-y-1 text-gray-600 text-sm md:text-base">
                           <li>• Doctora en Odontología - Egresada 2016</li>
                           <li>
                             • Especialidad en Odontología Estética Restauradora
@@ -88,7 +88,7 @@ export const Perfil = () => {
                         <h4 className="font-semibold text-gray-800 mb-2">
                           Certificaciones
                         </h4>
-                        <ul className="space-y-1 text-gray-600">
+                        <ul className="space-y-1 text-gray-600 text-sm md:text-base">
                           <li>
                             • Certificada en Armonización Orofacial - 2017
                           </li>
@@ -111,7 +111,7 @@ export const Perfil = () => {
                         <h4 className="font-semibold text-gray-800 mb-2">
                           Especialidades
                         </h4>
-                        <ul className="space-y-1 text-gray-600">
+                        <ul className="space-y-1 text-gray-600 text-sm md:text-base">
                           <li>• Odontología Estética Restauradora</li>
                           <li>
                             • Armonización Orofacial con fines estéticos y
@@ -130,7 +130,7 @@ export const Perfil = () => {
                         <h4 className="font-semibold text-gray-800 mb-2">
                           Filosofía de Trabajo
                         </h4>
-                        <ul className="space-y-1 text-gray-600">
+                        <ul className="space-y-1 text-gray-600 text-sm md:text-base">
                           <li>
                             • Experiencia positiva en la visita al odontólogo
                           </li>
@@ -148,7 +148,9 @@ export const Perfil = () => {
                   </div>
 
                   <div className="mt-auto">
-                    <Button className="bg-primary hover:bg-primary-hover text-white">
+                    <Button className="bg-primary hover:bg-primary-hover text-white" onClick={() => {
+                      window.location.href = "#contacto";
+                    }}>
                       Agendar tu primera consulta{" "}
                       <ChevronRight className="ml-2 h-5 w-5" />
                     </Button>

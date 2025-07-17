@@ -19,7 +19,7 @@ export default function DentalClinic() {
         <SobreMi />
         <Servicios />
         <Perfil />
-        <Testimonios />
+        {/* <Testimonios /> */}
         <GaleriaEquipos />
         <CallToAction />
         <Contact />
