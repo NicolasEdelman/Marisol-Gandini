@@ -11,10 +11,10 @@ import Image from "next/image";
 
 export const Perfil = () => {
   return (
-    <section id="perfil" className="py-20 bg-primary-light">
+    <section id="perfil" className="py-10 md:py-20 bg-primary-light">
       <div className="container mx-auto px-4">
         <AnimateOnScroll>
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
               Perfil Profesional
             </h2>

@@ -8,7 +8,7 @@ export const CallToAction = () => {
       <div className="container mx-auto px-4">
         <AnimateOnScroll>
           <div className="max-w-4xl mx-auto text-center text-white">
-            <h2 className="text-2xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
               ¿Listo para una sonrisa perfecta?
             </h2>
             <p className="text-md md:text-xl mb-8">
